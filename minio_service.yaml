@@ -16,5 +16,6 @@ spec:
       protocol: TCP
       port: 9050
       targetPort: 9050
-      nodePort: 31414
+      #nodePort: 31414
+      nodePort:  31415 
   type: NodePort
